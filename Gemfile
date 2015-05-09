@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#ruby=ruby-2.2.1
+#ruby-gemset=rails_admin
+
 case ENV['RAILS_VERSION']
 when '4.0'
   gem 'rails', '~> 4.0.0'
